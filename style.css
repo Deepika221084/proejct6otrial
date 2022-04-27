@@ -1,0 +1,115 @@
+body
+{
+    text-align: center;
+    background: linear-gradient(#b2f6f7, #ed5118);
+    margin: 0;
+
+    
+}
+
+#img1
+{
+    margin-top: 60px;
+    border-radius: 50%;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+#h1
+{
+    font-size: 40px;
+    font-family: 'Cinzel&display=swap',cursive;
+    font-weight: 300;
+}
+#name
+{
+    font-size: 30px;
+    font-family: cursive;
+}
+#h2
+{
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 300;
+}
+#bio
+{
+    text-align: center;
+    font-size: 42px;
+}
+
+.line
+{
+   
+    height: 6px;
+    width:70px;
+    background-color: black;
+    margin: 8px auto;
+}
+p
+{
+    
+    margin:25px auto;
+    max-width: 600px;
+    font-size: 20px;
+}
+.menu
+{
+    
+    position: fixed;
+    width:100%
+    top:0px;
+    font-family:fantasy;
+    font-size:30px;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 300px;
+
+}
+.links
+{
+    display:inline;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.links:hover
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a
+{
+    text-decoration: none;
+    color:blue;
+    text-shadow:1px 2px crimson;
+}
+
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+#writings a
+{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color:blue;
+}
+
+#contacts
+{
+    background: firebrick;
+}
+.contact1 a
+{
+    color:white;
+    text-shadow: none;
+}
+.contact1 h3
+{
+    display: inline;
+}
